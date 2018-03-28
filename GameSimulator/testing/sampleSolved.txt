@@ -1,0 +1,86 @@
+Welcome to the puzzle game!
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|  
+3|DC|  
+
+Enter a command:
+> (2, 2) -> D
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|D 
+3|DC|  
+
+Enter a command:
+> (2, 3) -> D
+Invalid move. Please try again!
+Enter a command:
+> :UNDO
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|  
+3|DC|  
+
+Enter a command:
+> (2, 3) -> C
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA| C
+3|DC|  
+
+Enter a command:
+> :UNDO
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|  
+3|DC|  
+
+Enter a command:
+> :ATTEMPTS
+(2, 2) -> D
+----------------
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|D 
+3|DC|  
+
+
+(2, 3) -> C
+----------------
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA| C
+3|DC|  
+
+Enter a command:
+> :SOLVE
+  01|23
+ ------
+0|AB|CD
+1|CD|AB
+ ------
+2|BA|DC
+3|DC|BA
+
+Hope you had fun playing!
